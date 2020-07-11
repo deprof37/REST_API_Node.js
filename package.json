@@ -1,0 +1,19 @@
+{
+  "name": "rest_apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deprof37/REST_API_Node.js.git"
+  },
+  "author": "Olusola Fatoye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deprof37/REST_API_Node.js/issues"
+  },
+  "homepage": "https://github.com/deprof37/REST_API_Node.js#readme"
+}
