@@ -73,8 +73,11 @@ mongoose
     { useNewUrlParser: true }
   )
   .then(() => {
-    console.log("connected!!!");
     //Register middleware to listen on defined port
-    app.listen(1991);
+    const server = app.listen(1991);
+    const io = require("./socket").init(server);
+    io.on("connection", (socket) => {
+      console.log("Client connected");
+    });
   })
   .catch((err) => console.log(err));
